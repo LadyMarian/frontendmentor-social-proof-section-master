@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    font-size: 0.9375rem;
+    font-family: 'Spartan', sans-serif;
+    position: relative;
+    text-align: center;
+    display: flex;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+// COLORS
+
+// Primary colors
+$VeryDarkMagenta: hsl(300, 43%, 22%);
+$SoftPink: hsl(333, 80%, 67%);
+
+// Neutral colors
+$DarkGrayishMagenta: hsl(303, 10%, 53%);
+$LightGrayishMagenta: hsl(300, 24%, 96%);
+$White: hsl(0, 0%, 100%);

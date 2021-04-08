@@ -1,0 +1,39 @@
+.circle {
+    position: fixed;
+
+    &__top {
+        top: 0;
+        left: 0;
+    }
+
+    &__bottom {
+        bottom: 0;
+        right: 0;
+    }
+
+    &__desktop {
+        display: none;
+    }
+
+    &__mobile {
+        width: 100vw;
+    }
+}
+
+@media (min-width: 450px) {
+    .circle {
+        &__desktop {
+            display: block;
+            &__top {
+                width: 33%;
+            }
+            &__bottom {
+                width: 75%
+            }
+        }
+        &__mobile {
+            display: none;
+        }
+    }
+    
+}
